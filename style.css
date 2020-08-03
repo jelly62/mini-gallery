@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    font-family: 'Merienda One', cursive;
+}
+body{   
+    background: url(./bg-pic.jpg) no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    text-align: center;  
+}
+
+/* Head Part */
+h1,i{
+    margin: 20px 15%;
+    color:#000000;
+    text-shadow: 0.03em 0.03em 0.03em #444444;
+}
+h1{
+    margin-top: 30px;
+    font-size: 30px;
+}
+i{
+    display: block;
+    font-size: 20px;
+}
+.line{
+    margin: 0 auto;
+    width: 80%;
+    height: 16px;
+    border-bottom: thick double #111111;
+}
+
+/* Main Part */
+.main,li{
+    display: block;
+}
+.main{
+    width: 100%;
+    padding: 2% 5%;
+}
+li{
+    list-style: none;
+    float: left;
+    position: relative;
+    z-index: -2;
+    width: 26%;
+    height: 26%;
+    margin: 2%;
+    box-shadow: 6px 6px 3px #333333;
+    background-color: white;
+}
+img{
+    margin: 20px auto;
+    width: 80%;
+    height: 90%;
+    box-shadow: 1px 1px 3px #333333;
+}
+img:hover{
+    opacity: 25%;
+}
+.annotation{
+    position: absolute;
+    z-index: -2;
+    margin: 35% 15%;
+    font-size: 18px;
+}
